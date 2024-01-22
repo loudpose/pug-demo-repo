@@ -1,1 +1,1 @@
-console.log('JS');
+// This file does nothing
