@@ -1,0 +1,11 @@
+{
+	"cover": {
+		"hello": "Bonjour"
+	},
+	"gallery": {
+		"title": "Galerie"
+	},
+	"nav": {
+		"title": "Ceci est une navigation"
+	}
+}
