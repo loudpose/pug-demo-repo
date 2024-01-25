@@ -1,19 +1,19 @@
 {
-	"name": "pug-demo",
-	"version": "1.0.0",
-	"description": "this is the description",
-	"main": "app.js",
-	"scripts": {
-		"build": "webpack --progress --mode production"
-	},
-	"author": "",
-	"license": "ISC",
-	"devDependencies": {
-		"@webdiscus/pug-loader": "^2.10.5",
-		"clean-webpack-plugin": "^4.0.0",
-		"html-webpack-plugin": "^5.6.0",
-		"pug": "^3.0.2",
-		"webpack": "^5.89.0",
-		"webpack-cli": "^5.1.4"
-	}
+  "name": "pug-demo",
+  "version": "1.0.0",
+  "description": "this is the description",
+  "main": "app.js",
+  "scripts": {
+    "build": "webpack --progress --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@webdiscus/pug-loader": "^2.10.6",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "pug": "^3.0.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }

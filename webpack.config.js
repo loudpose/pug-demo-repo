@@ -24,7 +24,7 @@ locales.forEach((locale) => {
 	console.log(code, ':', data);
 
 	const htmlPlugin = new HtmlWebpackPlugin({
-		template: path.resolve(__dirname, 'views', 'pages', 'home', 'index.pug'),
+		template: path.resolve(__dirname, 'views', 'pages', 'home', 'index.pug') + `?lang=${code}`, // <=
 		filename: `${code}/index.html`,
 		data: data,
 		cache: false,
